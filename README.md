@@ -24,7 +24,11 @@ Supported platforms: linux/386,linux/amd64,linux/arm/v7,linux/arm64,linux/ppc64l
 * mysql & postgresql client
 * jq
 * git
+* ssh-server
 
+**Note: ssh-server is installed, NOT recommended to use in production, ONLY for testing**
+
+ssh username/password: admin/admin
 
 **Note:** The SSL certificates are generated for 'localhost', are self signed, and placed in `/certs/` directory. During your testing, ignore the certificate warning/error. While using curl, you can use `-k` to ignore SSL certificate warnings/errors.
 
