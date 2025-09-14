@@ -6,6 +6,11 @@ Supported platforms: linux/386,linux/amd64,linux/arm/v7,linux/arm64,linux/ppc64l
 ## Downloadable from Docker Hub: 
 * [https://hub.docker.com/r/praqma/network-multitool/](https://hub.docker.com/r/praqma/network-multitool/)  (Automated multi-arch Build)
 
+## New features
+1. Added gobgp for `admin` user
+2. Login with username: `admin` and password: `admin`, If needed to run any privilege commands use `sudo
+
+
 # Tools included:
 * apk package manager
 * Nginx Web Server (port 80, port 443) - customizable ports!
